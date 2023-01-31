@@ -34,13 +34,13 @@ To run the code in Gitpod, use the command `node [FILENAME.js]` in the terminal.
 
 ## The `map()` Method
 
-### What is the map() function?
-The map() function is a higher-order function in JavaScript that allows you to transform an array into a new one, by applying a callback function to each of its elements.
+### What is the `map()` function?
+The `map()` function is a higher-order function in JavaScript that allows you to transform an array into a new one, by applying a callback function to each of its elements.
 
-The map() function returns a new array, where each element has been transformed based on the logic defined in the callback function. The original array remains unchanged.
+The `map()` function returns a new array, where each element has been transformed based on the logic defined in the callback function. The original array remains unchanged.
 
 ### What this section shows you?
-The code examples in the "map.js" file show the following variations of using the map() function:
+The code examples in the "map.js" file show the following variations of using the `map()` function:
 
 - Using a for loop
 - Using the map() function with a callback function defined as a named function
@@ -82,10 +82,10 @@ The map method should return an array for each item in the students array and th
 
 ## The `filter()` Method
 
-### What is the filter() function?
-The filter() function is a higher-order function in JavaScript that allows you to filter out elements from an array that do not match a certain condition, as defined in the callback function.
+### What is the `filter()` function?
+The `filter()` function is a higher-order function in JavaScript that allows you to filter out elements from an array that do not match a certain condition, as defined in the callback function.
 
-The filter() function returns a new array, where only the elements that pass the condition specified in the callback function have been included. The original array remains unchanged.
+The `filter()` function returns a new array, where only the elements that pass the condition specified in the callback function have been included. The original array remains unchanged.
 
 ### What this section shows you?
 The **Simple Filtering** section of the code demonstrates how to filter an array of people objects based on the specified conditions. In this case, the filter method is used to extract two different sets of people from the original array.
@@ -152,8 +152,8 @@ You will create a single line of code that should filter the students array and 
 
 ## The `reduce()` Method
 
-### What is the reduce() function?
-This code demonstrates how to use the reduce method in JavaScript. The reduce method takes an array and reduces it to a single value by iterating over its elements and applying a function to each element.
+### What is the `reduce()` function?
+The `reduce()` method takes an array and reduces it to a single value by iterating over its elements and applying a function to each element.
 
 ### What this section shows you?
 Summing an array of numbers: It shows how to sum the elements of an array using the reduce method. It includes four different versions of the code, each providing a different level of detail in the output.
@@ -175,7 +175,7 @@ Keep an eye open for spots to use destructuring, You will not be tested to see i
 - Use a default value with the reduce method
 - Log out the variable biggest to see the value
 
-Answer: `{ name: 'Adam', max: 88 } `
+Answer: `{ name: 'Adam', max: 88 }`
 
 ### reduce.js Terminal Output
 
