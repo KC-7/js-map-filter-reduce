@@ -43,10 +43,10 @@ The `map()` function returns a new array, where each element has been transforme
 The code examples in the "map.js" file show the following variations of using the `map()` function:
 
 - Using a for loop
-- Using the map() function with a callback function defined as a named function
-- Simplified version using map() with a callback function defined using an anonymous function
-- Simplified version using map() with a callback function defined using an arrow function
-- Using map() with objects
+- Using the `map()` function with a callback function defined as a named function
+- Simplified version using `map()` with a callback function defined using an anonymous function
+- Simplified version using `map()` with a callback function defined using an arrow function
+- Using `map()` with objects
 
 In addition to transforming arrays with numbers, the code also demonstrates how to transform arrays with objects.
 
