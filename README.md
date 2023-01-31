@@ -62,6 +62,10 @@ The map method should return an array for each item in the students array and th
 - Log out the variable named: john to see its value
 - Log out the variable named: rest to see its value
 
+
+**The solution is in the code file.**
+
+
 ### map.js Terminal Output
 
     gitpod /workspace/js-map-filter-reduce (main) $ node map.js
@@ -111,6 +115,9 @@ You will create a single line of code that should filter the students array and 
 - Assign it a value from using the filter method on the students array
 - Use a single line arrow function within the filter method (should not use a return statement)
 - Log out the variable topMaths
+
+
+**The solution is in the code file.**
 
 ### filter.js Terminal Output
 
@@ -178,6 +185,9 @@ Keep an eye open for spots to use destructuring, You will not be tested to see i
 - Log out the variable biggest to see the value
 
 Answer: `{ name: 'Adam', max: 88 }`
+
+
+**The solution is in the code file.**
 
 ### reduce.js Terminal Output
 
