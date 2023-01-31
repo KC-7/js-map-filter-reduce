@@ -1,9 +1,11 @@
 # Advanced JavaScript: Map, Filter & Reduce
 
-A mini project to test JavaScript Map, Filter and Reduce in Terminal
+A mini terminal project to test JavaScript Map, Filter and Reduce in Terminal. Well documented for future reference. 
 
 ## To use this Repository
 To run the code in Gitpod, use the command `node map.js` in the terminal.
+
+-----------------------
 
 ## The `map()` Method
 
@@ -51,3 +53,25 @@ The map method should return an array for each item in the students array and th
     [ 'Fran', { science: 93, english: 87, art: 95 } ]
     ]
 
+-----------------------
+
+## The `filter()` Method
+
+### What is the filter() function?
+The filter() function is a higher-order function in JavaScript that allows you to filter out elements from an array that do not match a certain condition, as defined in the callback function.
+
+The filter() function returns a new array, where only the elements that pass the condition specified in the callback function have been included. The original array remains unchanged.
+
+### What this section shows you?
+The **Simple Filtering** section of the code demonstrates how to filter an array of people objects based on the specified conditions. In this case, the filter method is used to extract two different sets of people from the original array.
+
+- The first filter method call looks for people whose age is greater than or equal to 21, and the result is stored in the over21 variable. 
+- The second filter method call looks for people whose name is 'Paul' and the result is stored in the paul variable.
+
+The **Complex Filtering** section of the code demonstrates how to filter an array of student objects, with a nested skills array within each student object. The goal is to extract the students who have at least one skill with 5 years or more experience.
+
+There are three different versions of the filter method implementation demonstrated in this section:
+- Ver 1: uses the filter method on the student's skills array, and checks if the length of the filtered array is greater than zero.
+- Ver 2: uses the some method to check if at least one skill in the skills array has 5 years or more experience.
+- Ver 3: uses the find method to check if there is at least one skill in the skills array with 5 years or more experience.
+Each version of the filter method is commented out, but can be uncommented and run in the terminal to see the results.
