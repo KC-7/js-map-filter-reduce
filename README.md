@@ -86,37 +86,38 @@ You will create a single line of code that should filter the students array and 
 
 ### filter.js Terminal Output
 
-gitpod /workspace/js-map-filter-reduce (main) $ node filter.js
-Simple Filter 21 or over  [ { name: 'Michael', age: 23 } ]
-Simple Filter people with name Paul  [ { name: 'Paul', age: 18 } ]
-Complex Filter candidate with over 5 Years Experience  [
-  {
-    id: 1,
-    name: 'Mark',
-    profession: 'Developer',
-    skills: [ [Object], [Object], [Object] ]
-  },
-  {
-    id: 3,
-    name: 'Jason',
-    profession: 'Designer',
-    skills: [ [Object], [Object], [Object] ]
-  }
-]
-[ 'Mark', 'Jason' ]
--------------------------------------------------------------------
-The Filter Challenge:
-Filter Challenge Solution  [
-  {
-    name: 'John',
-    subjects: [ 'maths', 'english', 'cad' ],
-    teacher: { maths: 'Harry', english: 'Joan', cad: 'Paul' },
-    results: { maths: 90, english: 75, cad: 87 }
-  },
-  {
-    name: 'Adam',
-    subjects: [ 'science', 'maths', 'art' ],
-    teacher: { science: 'Iris', maths: 'Harry', art: 'Simon' },
-    results: { science: 84, maths: 97, art: 95 }
-  }
-]
+    gitpod /workspace/js-map-filter-reduce (main) $ node filter.js
+    
+    Simple Filter 21 or over  [ { name: 'Michael', age: 23 } ]
+    Simple Filter people with name Paul  [ { name: 'Paul', age: 18 } ]
+    Complex Filter candidate with over 5 Years Experience  [
+    {
+        id: 1,
+        name: 'Mark',
+        profession: 'Developer',
+        skills: [ [Object], [Object], [Object] ]
+    },
+    {
+        id: 3,
+        name: 'Jason',
+        profession: 'Designer',
+        skills: [ [Object], [Object], [Object] ]
+    }
+    ]
+    [ 'Mark', 'Jason' ]
+    -------------------------------------------------------------------
+    The Filter Challenge:
+    Filter Challenge Solution  [
+    {
+        name: 'John',
+        subjects: [ 'maths', 'english', 'cad' ],
+        teacher: { maths: 'Harry', english: 'Joan', cad: 'Paul' },
+        results: { maths: 90, english: 75, cad: 87 }
+    },
+    {
+        name: 'Adam',
+        subjects: [ 'science', 'maths', 'art' ],
+        teacher: { science: 'Iris', maths: 'Harry', art: 'Simon' },
+        results: { science: 84, maths: 97, art: 95 }
+    }
+    ]
