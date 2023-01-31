@@ -1,9 +1,34 @@
 # Advanced JavaScript: Map, Filter & Reduce
 
-A mini terminal project to test JavaScript Map, Filter and Reduce in Terminal. Well documented for future reference. 
+A mini project to test JavaScript Map, Filter and Reduce in the Terminal.
+It is well documented for future reference. 
 
-## To use this Repository
-To run the code in Gitpod, use the command `node map.js` in the terminal.
+## How to use this repository
+To run the code in Gitpod, use the command `node [FILENAME.js]` in the terminal. 
+**Tip** - Dont forget to change the file name!
+
+-----------------------
+
+## Table of Contents
+
+- [Advanced JavaScript: Map, Filter & Reduce](#advanced-javascript--map--filter---reduce)
+  * [How to use this repository](#how-to-use-this-repository)
+  * [Table of Contents](#table-of-contents)
+  * [The `map()` Method](#the--map----method)
+    + [What is the map() function?](#what-is-the-map---function-)
+    + [What this section shows you?](#what-this-section-shows-you-)
+    + [The Map Challenge](#the-map-challenge)
+    + [map.js Terminal Output](#mapjs-terminal-output)
+  * [The `filter()` Method](#the--filter----method)
+    + [What is the filter() function?](#what-is-the-filter---function-)
+    + [What this section shows you?](#what-this-section-shows-you--1)
+    + [The Filter Challenge](#the-filter-challenge)
+    + [filter.js Terminal Output](#filterjs-terminal-output)
+  * [The `reduce()` Method](#the--reduce----method)
+    + [What is the reduce() function?](#what-is-the-reduce---function-)
+    + [What this section shows you?](#what-this-section-shows-you--2)
+    + [The Reduce Challenge](#the-reduce-challenge)
+    + [reduce.js Terminal Output](#reducejs-terminal-output)
 
 -----------------------
 
@@ -74,7 +99,8 @@ There are three different versions of the filter method implementation demonstra
 - Ver 1: uses the filter method on the student's skills array, and checks if the length of the filtered array is greater than zero.
 - Ver 2: uses the some method to check if at least one skill in the skills array has 5 years or more experience.
 - Ver 3: uses the find method to check if there is at least one skill in the skills array with 5 years or more experience.
-Each version of the filter method is commented out, but can be uncommented and run in the terminal to see the results.
+
+**Note:** Version 1 & 2 of the filter method are commented out, but can be uncommented and run in the terminal to see the results.
 
 ### The Filter Challenge
 
@@ -87,7 +113,7 @@ You will create a single line of code that should filter the students array and 
 ### filter.js Terminal Output
 
     gitpod /workspace/js-map-filter-reduce (main) $ node filter.js
-    
+
     Simple Filter 21 or over  [ { name: 'Michael', age: 23 } ]
     Simple Filter people with name Paul  [ { name: 'Paul', age: 18 } ]
     Complex Filter candidate with over 5 Years Experience  [
@@ -121,3 +147,57 @@ You will create a single line of code that should filter the students array and 
         results: { science: 84, maths: 97, art: 95 }
     }
     ]
+
+-----------------------
+
+## The `reduce()` Method
+
+### What is the reduce() function?
+This code demonstrates how to use the reduce method in JavaScript. The reduce method takes an array and reduces it to a single value by iterating over its elements and applying a function to each element.
+
+### What this section shows you?
+Summing an array of numbers: It shows how to sum the elements of an array using the reduce method. It includes four different versions of the code, each providing a different level of detail in the output.
+
+Totaling a specific object property: It shows how to calculate the total experience of a team using the reduce method. It sums the years of experience of each team member.
+
+Grouping by a property, and totaling it too: It shows how to group the team members based on their profession and calculate the total experience for each profession.
+
+### The Reduce Challenge
+You will use the reduce method to execute a function on each item resulting in a single object. The object should be that of the student with the highest english score and should show the student's name and english score.
+
+You can either create the arrow function within the reduce method. or create an arrow function outside and pass it into the reduce method.
+
+Keep an eye open for spots to use destructuring, You will not be tested to see if you have done this, but it would be good for getting in more practice.
+
+- Create a variable named biggest using the keyword const
+- Assign it a value from using the reduce method on the students array
+- Use either an arrow function inside the reduce method, or create a function and pass it into the reduce method
+- Use a default value with the reduce method
+- Log out the variable biggest to see the value
+
+Answer: `{ name: 'Adam', max: 88 } `
+
+### reduce.js Terminal Output
+
+    gitpod /workspace/js-map-filter-reduce (main) $ node reduce.js
+
+    Accumulator: 0 Current Value: 0 Total: 0
+    Accumulator: 0 Current Value: 1 Total: 1
+    Accumulator: 1 Current Value: 2 Total: 3
+    Accumulator: 3 Current Value: 3 Total: 6
+    Accumulator: 6 Current Value: 4 Total: 10
+    Final Value: 10
+    ----------------------------------------------------------------
+    Total Team Experience in Years:  25
+    ----------------------------------------------------------------
+    Team Experience by Profession:  { Developer: 12, Designer: 4, Manager: 9 }
+    ----------------------------------------------------------------
+    Student with highest english score:  { name: 'Adam', max: 88 }
+
+## Credits
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+<small><i><a href='https://chat.openai.com/chat'>Readme partialy created by utilising ChatGPT</a></i></small>
+
+<small><i><a href='https://codeinstitute.net/global/'>Content Learned in Code Institute</a></i></small>
