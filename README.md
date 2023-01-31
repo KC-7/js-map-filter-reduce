@@ -1,6 +1,9 @@
-# The `map()` Method
+# Advanced JavaScript: Map, Filter & Reduce
 
-To use this repository:
-- Click the "Use this template" button in the upper right
-- Choose a name for your repository and create it
-- In your own repository, click the green "Gitpod" button
+A mini project to test JavaScript Map, Filter and Reduce in Terminal
+
+## To use this repository:
+- 
+
+## The `map()` Method
+
