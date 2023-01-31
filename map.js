@@ -30,7 +30,7 @@ const double = nums.map(num => num * 2);
 console.log("Simplfied w/ map() + arrow function ", double);
 
 // ----------------------------------------------------------- With objects:
-const students1 = [
+const students = [
   {
     id: 1,
     name: 'Mark',
@@ -51,10 +51,14 @@ const students1 = [
   },
 ];
 
-const studentsWithIds = students1.map(student => [student.name, student.id]);
+const studentsWithIds = students.map(student => [student.name, student.id]);
 console.log("Map() with objects ", studentsWithIds)
 
 // ----------------------------------------------------------- The Map Challenge:
+
+// Logging the divider and heading
+console.log("-------------------------------------------------------------------");
+console.log("The Map Challenge")
 
 // Steps:
 // The map method should return an array for each item in the students array and this new array should contain two items the items name value and the items results value.
@@ -65,7 +69,7 @@ console.log("Map() with objects ", studentsWithIds)
 // Log out the variable named: rest to see its value
 
 
-let students = [
+let students1 = [
   {
     name: 'John',
     subjects: ['maths', 'english', 'cad'],
@@ -95,11 +99,7 @@ let students = [
 // ----------------------------------------------------------- The Map Challenge Solution: 
 
 // Destructuring assignment to create variables `john` and `rest`
-let [john, ...rest] = students.map(student => [student.name, student.results]);
-
-// Logging the divider and heading
-console.log("-------------------------------------------------------------------");
-console.log("The Map Challenge")
+let [john, ...rest] = students1.map(student => [student.name, student.results]);
 
 // Logging the value of `john`
 console.log("john:", john);

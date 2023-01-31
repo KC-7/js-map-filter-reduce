@@ -75,3 +75,48 @@ There are three different versions of the filter method implementation demonstra
 - Ver 2: uses the some method to check if at least one skill in the skills array has 5 years or more experience.
 - Ver 3: uses the find method to check if there is at least one skill in the skills array with 5 years or more experience.
 Each version of the filter method is commented out, but can be uncommented and run in the terminal to see the results.
+
+### The Filter Challenge
+
+You will create a single line of code that should filter the students array and return only the items whos maths scores are greater than or equal to  90.  As this needs to be done in a single line of code, you will also be required to use an arrow function that does not have a return statement.
+- Create a variable named: topMaths using the const keyword
+- Assign it a value from using the filter method on the students array
+- Use a single line arrow function within the filter method (should not use a return statement)
+- Log out the variable topMaths
+
+### filter.js Terminal Output
+
+gitpod /workspace/js-map-filter-reduce (main) $ node filter.js
+Simple Filter 21 or over  [ { name: 'Michael', age: 23 } ]
+Simple Filter people with name Paul  [ { name: 'Paul', age: 18 } ]
+Complex Filter candidate with over 5 Years Experience  [
+  {
+    id: 1,
+    name: 'Mark',
+    profession: 'Developer',
+    skills: [ [Object], [Object], [Object] ]
+  },
+  {
+    id: 3,
+    name: 'Jason',
+    profession: 'Designer',
+    skills: [ [Object], [Object], [Object] ]
+  }
+]
+[ 'Mark', 'Jason' ]
+-------------------------------------------------------------------
+The Filter Challenge:
+Filter Challenge Solution  [
+  {
+    name: 'John',
+    subjects: [ 'maths', 'english', 'cad' ],
+    teacher: { maths: 'Harry', english: 'Joan', cad: 'Paul' },
+    results: { maths: 90, english: 75, cad: 87 }
+  },
+  {
+    name: 'Adam',
+    subjects: [ 'science', 'maths', 'art' ],
+    teacher: { science: 'Iris', maths: 'Harry', art: 'Simon' },
+    results: { science: 84, maths: 97, art: 95 }
+  }
+]
