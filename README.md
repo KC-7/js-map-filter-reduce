@@ -194,10 +194,18 @@ Answer: `{ name: 'Adam', max: 88 } `
     ----------------------------------------------------------------
     Student with highest english score:  { name: 'Adam', max: 88 }
 
+-------------------------
+
+## Final Summary
+
+This repository contains a project that demonstrates the use of `map()`, `filter()`, and `reduce()` functions in JavaScript. The `map()` function transforms an array by applying a callback function to each element and returns a new array. The `filter()` function filters elements from an array that do not match a certain condition and returns a new array with only elements that pass the condition. The `reduce()` function reduces an array to a single value by applying a callback function to the elements of the array. The code in the repository demonstrates how to use these functions with arrays and objects, and includes challenges to practice using the functions.
+
+-------------------------
+
 ## Credits
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+- <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-<small><i><a href='https://chat.openai.com/chat'>Readme partialy created by utilising ChatGPT</a></i></small>
+- <small><i><a href='https://chat.openai.com/chat'>Readme partialy created by utilising ChatGPT</a></i></small>
 
-<small><i><a href='https://codeinstitute.net/global/'>Content Learned in Code Institute</a></i></small>
+- <small><i><a href='https://codeinstitute.net/global/'>Content Learned in Code Institute</a></i></small>
