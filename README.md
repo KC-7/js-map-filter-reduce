@@ -4,7 +4,7 @@ A mini project to test JavaScript Map, Filter and Reduce in the Terminal.
 It is well documented for future reference. 
 
 ## How to use this repository
-To run the code in Gitpod, use the command `node [FILENAME.js]` in the terminal. 
+To run the code in Gitpod, use the command `node FILENAME.js` in the terminal. 
 **Tip** - Dont forget to change the file name!
 
 -----------------------
